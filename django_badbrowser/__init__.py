@@ -1,9 +1,10 @@
-import httpagentparser
-from pkg_resources import parse_version
 
 __version__ = "1.0.1"
 
 def check_user_agent(user_agent, requirements):
+	import httpagentparser
+	from pkg_resources import parse_version
+	
 	if not user_agent:
 		return True
 	
