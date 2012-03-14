@@ -2,21 +2,13 @@
 from distutils.core import setup
 import os
 
-def read_from(filename):
-    fp = open(filename)
-    try:
-        return fp.read()
-    finally:
-        fp.close()
-
-def get_version():
-    return read_from("VERSION")
+from django_badbrowser import __version__
 
 long_description = open(os.path.join(os.path.dirname(__file__), "README.textile")).read()
 
 setup(
 	name="django-badbrowser",
-	version=get_version(),
+	version=__version__,
 	url="http://github.com/adamcharnock/django-badbrowser",
 	download_url="git@github.com:adamcharnock/django-badbrowser.git",
 	description="Browser detection (including browser upgrade notices) for Django",

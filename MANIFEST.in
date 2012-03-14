@@ -1,2 +1,3 @@
 include VERSION
 include README.textile
+recursive-include django_badbrowser *
