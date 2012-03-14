@@ -1,3 +1,2 @@
 include README.textile
-include django_badbrowser/templates/django_badbrowser/ *.html
-recursive-include uastrings
+recursive-include django_badbrowser *
