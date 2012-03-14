@@ -1,0 +1,10 @@
+----
+
+Version 1.0.2, Wed 14 Mar 2012
+===============================
+
+91ed583214	Finial packaging tweaks. Non-python files should now be included. (Adam Charnock)
+6d2bf19423	Now using setup() from distutils where available (Adam Charnock)
+5c88afa3b3	Updating manifest and tweaking setup.py (Adam Charnock)
+eefcbdbf74	Packing updates, readying for release using seed (Adam Charnock)
+

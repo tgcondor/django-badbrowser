@@ -1,5 +1,5 @@
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 def check_user_agent(user_agent, requirements):
 	import httpagentparser
