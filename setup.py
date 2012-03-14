@@ -35,5 +35,4 @@ setup(
 	install_requires=[
 		"httpagentparser",
 	],
-	include_package_data=True,
 )
