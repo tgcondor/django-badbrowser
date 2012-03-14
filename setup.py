@@ -1,5 +1,8 @@
 #!/usr/bin/env python
-from distutils.core import setup
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
 import os
 
 from django_badbrowser import __version__
@@ -35,5 +38,4 @@ setup(
 	install_requires=[
 		"httpagentparser",
 	],
-	include_package_data=True,
 )
