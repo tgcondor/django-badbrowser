@@ -1,5 +1,12 @@
 ----
 
+Version 1.0.7, Fri 16 Mar 2012
+===============================
+
+e006a4eb5d	Minor refactoring and whitespace tweaking (Adam Charnock)
+a9d142a679	A little refactoring and fixing image URLs (Adam Charnock)
+
+
 Version 1.0.6, Fri 16 Mar 2012
 ===============================
 
