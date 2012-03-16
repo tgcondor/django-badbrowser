@@ -1,5 +1,12 @@
 ----
 
+Version 1.0.4, Fri 16 Mar 2012
+===============================
+
+a666cfad1d	Finally sorted out the packaging :) (Adam Charnock)
+597438be56	Version bump to 1.0.2 and updating CHANGES.txt (Adam Charnock)
+
+
 Version 1.0.3, Fri 16 Mar 2012
 ===============================
 
