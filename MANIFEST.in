@@ -1,2 +1,2 @@
 include README.textile
-recursive-include django_badbrowser *
+graft django_badbrowser
