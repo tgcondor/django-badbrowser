@@ -1,9 +1,13 @@
 ----
 
-Version 1.0.2, Fri 16 Mar 2012
+Version 1.0.3, Fri 16 Mar 2012
 ===============================
 
 6464c7ee25	Updating manifest file to correctly include all files (Adam Charnock)
+
+Version 1.0.2, Wed 14 Mar 2012
+===============================
+
 91ed583214	Finial packaging tweaks. Non-python files should now be included. (Adam Charnock)
 6d2bf19423	Now using setup() from distutils where available (Adam Charnock)
 5c88afa3b3	Updating manifest and tweaking setup.py (Adam Charnock)
