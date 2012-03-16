@@ -1,5 +1,11 @@
 ----
 
+Version 1.0.5, Fri 16 Mar 2012
+===============================
+
+6517f95a2c	Setting up static files correctly (Adam Charnock)
+
+
 Version 1.0.4, Fri 16 Mar 2012
 ===============================
 
