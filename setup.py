@@ -23,6 +23,8 @@ setup(
 	packages=[
 		"django_badbrowser",
 	],
+	package_dir={"django_badbrowser": "django_badbrowser"},
+	package_data={"django_badbrowser": ["templates/django_badbrowser/*", "uastrings/*"]},
 	classifiers=[
 		"Development Status :: 4 - Beta",
 		"License :: OSI Approved :: MIT License",
