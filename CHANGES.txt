@@ -1,5 +1,11 @@
 ----
 
+Version 1.0.6, Fri 16 Mar 2012
+===============================
+
+84bee7c18a	Some templating corrections (Adam Charnock)
+
+
 Version 1.0.5, Fri 16 Mar 2012
 ===============================
 
