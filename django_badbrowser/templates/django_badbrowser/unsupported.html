@@ -132,7 +132,7 @@ p {
 		{% endblock %}
 		
 		{% block unsupported_ignore %}
-		<p id="ignore">You may <a href="{% url django-badbrowser-ignore %}?next={{ next|urlencode }}">ignore this warning</a> at your own peril.</p>
+		<p id="ignore">You may <a href="{% url "django-badbrowser-ignore" %}?next={{ next|urlencode }}">ignore this warning</a> at your own peril.</p>
 		{% endblock %}
 	</div>
 	
