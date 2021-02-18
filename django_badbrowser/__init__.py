@@ -1,5 +1,5 @@
 
-__version__ = "1.0.7"
+__version__ = "1.0.8"
 
 def check_user_agent(user_agent, requirements):
     import httpagentparser
@@ -11,7 +11,7 @@ def check_user_agent(user_agent, requirements):
     if not requirements:
         return True
     
-    if type(user_agent) == httpagentparser.Result or type(user_agent) == dict:
+    if type(user_agent) == dict:
         parsed = user_agent
     else:
         parsed = httpagentparser.detect(user_agent)
